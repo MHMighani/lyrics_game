@@ -1,0 +1,23 @@
+// variables
+$letterInputBorderColor: black;
+$letterInputFocusBackground: lightgrey;
+
+.word {
+  font-size: 1.1rem;
+  &__letter {
+    margin-right: 10px;
+  }
+}
+
+.letter-input {
+  font-size: inherit;
+  border: none;
+  border-bottom: 1px solid $letterInputBorderColor;
+  text-align: center;
+  width: 25px;
+
+  &:focus {
+    outline: 0;
+    background-color: $letterInputFocusBackground;
+  }
+}
