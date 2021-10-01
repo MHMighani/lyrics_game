@@ -4,8 +4,9 @@ $letterInputFocusBackground: lightgrey;
 
 .word {
   font-size: 1.1rem;
+  margin-right: 10px;
   &__letter {
-    margin-right: 10px;
+    margin-right: 1px;
   }
 }
 

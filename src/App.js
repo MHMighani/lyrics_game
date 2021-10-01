@@ -1,10 +1,13 @@
-import Word from "./components/word";
+import Lyric from "./components/lyric";
+import lyric from "./lyrics/koop-island-blues";
+// import Test from "./components/test";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <Word value="Hello" hiddenLettersIndex={[1, 2, 3]} />
+      <Lyric data={lyric} />
+      {/* <Test /> */}
     </div>
   );
 }
